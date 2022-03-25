@@ -8,6 +8,7 @@
 - Enables adaptive display brightness (when a supported light sensor is detected)
 ## Notes
 > - Not recommended for deployment to machines used in competitive gaming or where precision-timing is required
+> - This script has no effect on virtual machines (though it may show that it is working, but it is ultimately up to the host OS as to how application workloads are distrubuted)
 > - No third-party utilities required, uses the built-in `powercfg.exe` utility that is shipped with Windows
 > - Errors may appear if a certain feature is not supported or the OS is too old
 > - *Intel Platforms:* Better power savings can be achieved on Intel processors by enabling C-States in your BIOS/UEFI. For best savings, enable "No Limit" if shown to dynamically enable all C-States supported by your CPU model
