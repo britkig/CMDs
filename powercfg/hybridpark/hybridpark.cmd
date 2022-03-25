@@ -18,7 +18,7 @@ powercfg.exe -setdcvalueindex scheme_current SUB_VIDEO VIDEOADAPT 1
 powercfg.exe -setacvalueindex scheme_current SUB_VIDEO ADAPTBRIGHT 1
 powercfg.exe -setdcvalueindex scheme_current SUB_VIDEO ADAPTBRIGHT 1
 
-powercfg.exe -setacvalueindex scheme_current SUB_NONE PERSONALITY 0
+powercfg.exe -setacvalueindex scheme_current SUB_NONE PERSONALITY 2
 powercfg.exe -setdcvalueindex scheme_current SUB_NONE PERSONALITY 0
 
 powercfg.exe -setacvalueindex scheme_current SUB_NONE DEVICEIDLE 1
@@ -77,28 +77,28 @@ powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFEPP 100
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFEPP1 50
 powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFEPP1 100
 
-powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFDECTIME 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFDECTIME 1
-powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFDECTIME1 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFDECTIME1 1
-powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR HETERODECREASETIME 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR HETERODECREASETIME 1
+powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFDECTIME 100
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFDECTIME 50
+powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFDECTIME1 100
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFDECTIME1 50
+powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR HETERODECREASETIME 100
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR HETERODECREASETIME 50
 
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFINCTIME 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFINCTIME 1
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFINCTIME 50
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFINCTIME1 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFINCTIME1 1
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFINCTIME1 50
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR HETEROINCREASETIME 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR HETEROINCREASETIME 1
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR HETEROINCREASETIME 50
 
-powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFDECTHRESHOLD 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFDECTHRESHOLD 1
-powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFDECTHRESHOLD1 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFDECTHRESHOLD1 1
+powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFDECTHRESHOLD 100
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFDECTHRESHOLD 50
+powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFDECTHRESHOLD1 100
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFDECTHRESHOLD1 50
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFINCTHRESHOLD 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFINCTHRESHOLD 1
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFINCTHRESHOLD 50
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR PERFINCTHRESHOLD1 1
-powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFINCTHRESHOLD1 1
+powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFINCTHRESHOLD1 50
 
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR HETEROCLASS1INITIALPERF 50
 powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR HETEROCLASS1INITIALPERF 50
@@ -148,3 +148,4 @@ powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR THROTTLING 2
 powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR THROTTLING 2
 
 powercfg.exe -setactive scheme_current
+pause
