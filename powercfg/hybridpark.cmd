@@ -1,5 +1,4 @@
-::@ECHO OFF
-cls
+@ECHO OFF
 cd /d %SYSTEMROOT%
 
 powercfg.exe -setactive scheme_balanced
@@ -148,11 +147,4 @@ powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR PERFDUTYCYCLING 1
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR THROTTLING 2
 powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR THROTTLING 2
 
-
-
-::PCIEXPRESS
-
-
-::REAPPLY NEW SETTINGS
 powercfg.exe -setactive scheme_current
-pause
