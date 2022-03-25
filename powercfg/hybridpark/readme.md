@@ -7,7 +7,7 @@
 - Switches PCIe power management to favour maximum savings (ASPM)
 - Enables adaptive display brightness (when a supported light sensor is detected)
 ## Technical Notes
-> - *Intel Platforms:* Better power savings can be achieved on Intel processors by enabling C-States in your BIOS/UEFI. For best savings, enable "No Limit" if shown to dynamically enable all C-States supported by your CPU model
+> - *Intel Platforms:* Better power savings can be achieved on Intel processors by enabling C-States in your BIOS/UEFI. For best results, enable "No Limit" if shown to dynamically enable all C-States supported by your CPU model
 > - Even if no errors occur this script has no real effect on virtual machines workloads (though it may show that it is working in the virtual machine's Task Manager, but it is ultimately up to the hosting OS as to how workloads are distrubuted)
 ## Notes
 > - Not recommended for deployment to machines used in competitive gaming or where precision-timing is required
