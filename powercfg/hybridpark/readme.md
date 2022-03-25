@@ -12,4 +12,5 @@
 ## Notes
 > - **Not recommended for deployment on machines used in competitive gaming, to operate/control/manipulate medical apparatus, or where precision-timing is required**
 > - No third-party utilities required, uses the built-in `powercfg.exe` utility that is shipped with Windows
+> - May cause an increase in frame drops in some games when the amount of on-screen content changes significantly
 > - Errors may appear if a certain feature is not supported or the OS is too old
