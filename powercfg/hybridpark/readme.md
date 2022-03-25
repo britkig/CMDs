@@ -4,7 +4,7 @@
 - Reduces CPU speed aggression value to 50% (to enable more frequent use of minimum CPU speeds)
 - Changes hardware interrupt handling to be processed only by already-active cores
 - Biases lower CPU speeds whilst on DC (laptops/UPS)
-- Switches PCI-express power management to favour maximum savings (ASPM)
+- Switches PCIe power management to favour maximum savings (ASPM)
 - Enables adaptive display brightness (when a supported light sensor is detected)
 ## Notes
 > - Not recommended for deployment to machines used in competitive gaming or where precision-timing is required
