@@ -1,5 +1,5 @@
 # "Hybrid Park" Plan
-- **Sets then modifies the Balanced Windows power plan**
+- **Sets the Balanced Windows power plan as the active plan then modifies it**
 - Enables Core Parking (but at least one core, or at least one core on each installed processor package motherboards with multiple sockets, will always be awake)
 - Reduces CPU speed aggression value to 50% (to enable full spread of supported CPU speeds more evenly)
 - Changes hardware interrupt handling to be processed only by already-active cores
