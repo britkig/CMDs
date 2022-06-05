@@ -1,6 +1,6 @@
 # "Adaptive" Plan
 - **Sets the "Balanced" Windows power plan as the active plan then modifies it with a custom set of tweaks to adjust how workloads are distributed, allowing some core to deep-sleep for longer without interruption.**
-- Enables Core Parking* (but at least one core will always be awake, and one core will always be active in each package on multi-socketed platforms)
+- Enables Core Parking (but at least one core will always be awake, and one core will always be active in each package on multi-socketed platforms)
 - Reduces CPU performance-savings bias to 50% (to enable more frequent use of minimum CPU speeds but keeping maximum performance available if needed)
 - Changes hardware interrupt handling to be processed only by already-active cores
 - Biases lower CPU speeds whilst on DC (laptops/UPS)
