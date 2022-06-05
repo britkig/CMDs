@@ -1,6 +1,4 @@
-::@ECHO OFF
 cd /d %SYSTEMROOT%
-::powercfg.exe /restoredefaultschemes
 
 ::	Set "Balanced" as active scheme
 powercfg.exe -setactive scheme_balanced
