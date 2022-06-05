@@ -24,7 +24,6 @@ powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR CPMINCORES 0
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR CPMAXCORES 100
 powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR CPMAXCORES 100
 
-
 ::	Task Distribution
 powercfg.exe -setacvalueindex scheme_current SUB_PROCESSOR CPCONCURRENCY 90
 powercfg.exe -setdcvalueindex scheme_current SUB_PROCESSOR CPCONCURRENCY 90
@@ -103,5 +102,3 @@ powercfg.exe -setdcvalueindex scheme_current 44f3beca-a7c0-460e-9df2-bb8b99e0cba
 
 ::	Re-apply new settings
 powercfg.exe -setactive scheme_current
-
-pause
