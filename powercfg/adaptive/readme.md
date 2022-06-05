@@ -13,6 +13,6 @@
 > - Even if no errors occur, this script has no actual effect on virtual machines (it may show that it is working in the virtual machine's Task Manager, but it is ultimately up to the hosting OS as to how workloads are distributed)
 ## Notes
 > - **Not recommended for deployment on machines used in competitive gaming, to operate/control/manipulate medical apparatus, or where precision-timing is required**
-> - No third-party utilities required, uses the built-in `powercfg.exe` utility that is shipped with Windows
-> - May cause an increase in the frequency of frame dropping in some games when the amount of required processing power spikes due to significant changes on the amount of displayed content
+> - No third-party utilities required, uses the built-in `powercfg.exe` tool that is shipped with Windows
+> - May cause an increase in the frequency of frame dropping in some games when the amount of required processing power spikes due to significant changes to on-screen content
 > - Errors may appear during script execution if a certain feature is not supported or certain brand of hardware is not present
